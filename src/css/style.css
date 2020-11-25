@@ -1,5 +1,14 @@
 /*! purgecss start ignore */
 @tailwind base;
 @tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.body-image {
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*! purgecss end ignore */
 @tailwind utilities;

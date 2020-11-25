@@ -2,40 +2,27 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 
 function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[`studio`, `legale`, `monica`, `barzon`,`avvocato`]}
+        title="Avvocato Monica Barzon"
+        description="Avvocato Monica Barzon"
       />
-
-      <section className="text-center">
-        <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
-        />
-
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
-        </h2>
-
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
-        </p>
-      </section>
+        <div className="w-full max-w-lg">
+            <div className="leading-loose">
+              <div className="max-w-4xl m-4 p-10">
+                  <p className="text-black font-medium font-serif text-center text-3xl
+                  font-bold">
+                  Avvocato Monica Barzon
+                </p>
+                <p className="font-serif text-lg text-center">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eligendi perspiciatis dolores consequatur officia, magni cumque iure enim, id alias corrupti aut animi architecto obcaecati reiciendis at eaque fugit voluptate!</p>
+              </div>
+            </div>
+          </div>
     </Layout>
   );
 }
