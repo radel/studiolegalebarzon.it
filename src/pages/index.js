@@ -18,13 +18,13 @@ function IndexPage() {
                   font-bold mb-4">
                   Studio Legale Avvocato Monica Barzon
                 </h1>
-                <p className="font-serif text-lg text-justify py-2">
+                <p className="font-serif md:text-lg text-justify py-2">
                 Lo Studio Legale dell&apos;Avvocato Monica Barzon, con sede a Belluno, è specializzato in ogni area del diritto penale, incluso il diritto penale dell&apos;economia ed il diritto penale tributario.
                 </p>
-                <p className="font-serif text-lg text-justify py-2">
+                <p className="font-serif md:text-lg text-justify py-2">
 L&apos;Avvocato Monica Barzon offre quindi assistenza legale in ipotesi di contestazione di ogni fattispecie di reato comune, societario e fiscale.
                 </p>
-                <p className="font-serif text-lg text-justify py-2">
+                <p className="font-serif md:text-lg text-justify py-2">
 Lo Studio Legale si occupa anche di diritto civile, di diritto di famiglia e di diritto dell&apos;impresa, avvalendosi della collaborazione di una rete consolidata di professionisti, ciascuno esperto in ogni singolo settore del diritto.
                 </p>
                 <div className="py-4">
